@@ -1,0 +1,61 @@
+#ebola-infography{
+	font: 14px/1.3em 'Open Sans', sans-serif;
+	position:relative;
+	max-width: 900px;
+	height:560px;
+	margin:20px auto;
+	padding:0;
+	border:solid 1px #CCC;
+	background-color: #FFF;
+	color:#333;
+	overflow: hidden
+}
+#ebola-infography *,#ebola-infography *:before,#ebola-infography *:after {
+	-webkit-box-sizing: border-box;-moz-box-sizing: border-box;box-sizing: border-box;
+	margin:0;padding:0;
+}
+#ebola-mapy-slider{
+	position:relative;
+	height:520px;
+	margin:0;
+	padding:0;
+}
+
+#ebola-mapy-slider .slide-info{
+	width: 900px;
+	height:520px;
+	border-top:solid 1px #DDD;
+	background-color: #EEE;
+}
+
+.infography-controls{
+	border-top:solid 1px #BBB;
+	background-color: #FFF;
+	height:40px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.infography-controls .infography-controls-arrow{
+	position: absolute;
+	top: 0;bottom: 0;
+	width:40px;
+	cursor: pointer;
+}
+.infography-controls .infography-controls-arrow.disabled{
+	cursor: default;
+	opacity: .5;
+}
+
+.infography-controls .infography-controls-arrow.infography-controls-prev{
+	left:0;
+}
+.infography-controls .infography-controls-arrow.infography-controls-next{
+	right:0;
+}
+.infography-controls .infography-controls-line{
+	position: absolute;
+	top: 0;bottom: 0;
+	left:40px;right:40px;
+}
