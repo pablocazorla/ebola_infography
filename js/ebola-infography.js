@@ -22,4 +22,11 @@ $('document').ready(function() {
 			slide: 'slide-info'
 		}
 	}, arr);
+
+	for (var i = 0; i < 30; i++) {
+		ebolaInfographic.addStep({
+			slide: i,
+			title: 'Titulo-' + i
+		});
+	}
 });
