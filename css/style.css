@@ -1,0 +1,15 @@
+body{font: 14px/1.3em sans-serif;}
+.mapy{
+	background-color: #EEE;
+	border: solid 1px #BBB;
+	overflow: hidden;
+	max-width:900px;
+	height:500px;
+	margin:30px auto;
+}
+.slide{opacity: .4}
+
+
+.quad-blue{
+	position: absolute;top:100px;left: 100px;width: 100px;height: 100px;background: blue;
+}
