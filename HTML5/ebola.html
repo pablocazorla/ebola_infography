@@ -1,0 +1,47 @@
+<!doctype HTML>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Ébola | Infografía - Clínica Alemana</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+		<style type="text/css" media="screen">
+			html, body { height:100%; background-color: #EEE;margin:0; padding:0; overflow:hidden;}
+			#ebola-container{
+				position:relative;
+				background-color: #FFF;
+				border:solid 1px #BBB;
+				margin:30px auto; padding:0;
+				width: 900px; height: 550px;
+			}
+			#ebola-container.fullscreen{
+				width: 100%; height: 100%;margin:0;
+			}
+			#ebola-container-btn-full{
+				position:absolute;
+				bottom:-15px;left: 0;right: 0;text-align: center;font-size: 11px;line-height: 15px;height: 15px;margin:0; padding:0;
+				color:#666;cursor: pointer;font-family: sans-serif;
+				display: none;
+			}
+			#ebola-container-btn-full.enabled{
+				display: block;
+			}
+			#ebola-container.fullscreen #ebola-container-btn-full.enabled{
+				display: none;
+			}
+			#ebola-container.fullscreen{
+				width: 100%; height: 100%;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="ebola-container">
+			<div id="ebola-container-btn-full">Ver en pantalla completa</div>
+		</div>
+		<script src="https://www.gstatic.com/swiffy/v7.1/runtime.js"></script>
+		<script src="ebola/data.js"></script>
+		<script src="ebola/app.js"></script>
+	</body>
+</html>
